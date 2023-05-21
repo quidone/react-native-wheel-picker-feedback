@@ -2,19 +2,20 @@
   "name": "@quidone/react-native-wheel-picker-feedback",
   "version": "0.1.0",
   "description": "It provides native sound and haptic feedback from the wheel picker",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "main": "dist/commonjs/index",
+  "module": "dist/module/index",
+  "types": "dist/typescript/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
+  "private": false,
   "files": [
     "src",
-    "lib",
+    "dist",
     "android",
     "ios",
     "cpp",
     "*.podspec",
-    "!lib/typescript/example",
+    "!dist/typescript/example",
     "!ios/build",
     "!android/build",
     "!android/gradle",
@@ -88,7 +89,7 @@
     "preset": "react-native",
     "modulePathIgnorePatterns": [
       "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
+      "<rootDir>/dist/"
     ]
   },
   "commitlint": {
@@ -115,7 +116,7 @@
   },
   "react-native-builder-bob": {
     "source": "src",
-    "output": "lib",
+    "output": "dist",
     "targets": [
       "commonjs",
       "module",
