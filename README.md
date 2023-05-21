@@ -1,30 +1,51 @@
-# react-native-wheel-picker-feedback
+[AUTHOR]: https://github.com/rozhkovs
+[Q-WHEEl-PICKER]: https://github.com/quidone/react-native-wheel-picker
 
-v
+# 🙌 React Native Wheel Picker Feedback 🙌
+
+It provides native sound and haptic feedback from the wheel picker. For platform other than iOS, nothing will happen.
+
+This may be used with [@quidone/react-native-wheel-picker][Q-WHEEl-PICKER]
 
 ## Installation
 
 ```sh
-npm install @quidone/react-native-wheel-picker-feedback
+yarn add @quidone/react-native-wheel-picker-feedback
 ```
 
 ## Usage
 
-```js
-import { multiply } from '@quidone/react-native-wheel-picker-feedback';
+```ts
+import WheelPickerFeedback from '@quidone/react-native-wheel-picker-feedback';
 
-// ...
-
-const result = await multiply(3, 7);
+WheelPickerFeedback.getImpact();
+WheelPickerFeedback.getSound();
+WheelPickerFeedback.getSoundAndImpact()
 ```
 
-## Contributing
+## ⚡️ Try it out
 
+```shell
+git clone git@github.com:quidone/react-native-wheel-picker-feedback.git
+cd react-native-wheel-picker-feedback
+yarn install
+cd example && yarn install && yarn ios
+```
+
+## 👨‍💻 Author
+[Sergey Rozhkov][AUTHOR]
+
+## 🎯 Was it helpful?
+Do you like it and find it helpful? You can help this project in the following way:
+- ⭐ Put the star.
+- 💡 Suggest your ideas.
+- 😉 Open a founded issue.
+
+## 🤝 Contributing
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
-## License
-
-MIT
+## 📄 License
+Quidone React Native Wheel Picker Feedback is MIT licensed, as found in the [LICENSE](LICENSE) file.
 
 ---
 
