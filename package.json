@@ -1,6 +1,6 @@
 {
   "name": "@quidone/react-native-wheel-picker-feedback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It provides native sound and haptic feedback from the wheel picker",
   "main": "dest/commonjs/index",
   "module": "dest/module/index",
