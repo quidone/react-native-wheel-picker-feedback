@@ -8,12 +8,15 @@ export default function App() {
     <View style={styles.container}>
       <Button
         title={'Impact'}
-        onPress={() => WheelPickerFeedback.getImpact()}
+        onPress={() => WheelPickerFeedback.triggerImpact()}
       />
-      <Button title={'Sound'} onPress={() => WheelPickerFeedback.getSound()} />
+      <Button
+        title={'Sound'}
+        onPress={() => WheelPickerFeedback.triggerSound()}
+      />
       <Button
         title={'Sound and impact'}
-        onPress={() => WheelPickerFeedback.getSoundAndImpact()}
+        onPress={() => WheelPickerFeedback.triggerSoundAndImpact()}
       />
     </View>
   );

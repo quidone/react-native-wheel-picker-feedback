@@ -18,9 +18,9 @@ yarn add @quidone/react-native-wheel-picker-feedback
 ```ts
 import WheelPickerFeedback from '@quidone/react-native-wheel-picker-feedback';
 
-WheelPickerFeedback.getImpact();
-WheelPickerFeedback.getSound();
-WheelPickerFeedback.getSoundAndImpact()
+WheelPickerFeedback.triggerImpact();
+WheelPickerFeedback.triggerSound();
+WheelPickerFeedback.triggerSoundAndImpact()
 ```
 
 ## ⚡️ Try it out

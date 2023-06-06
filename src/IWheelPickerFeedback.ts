@@ -1,7 +1,7 @@
 interface IWheelPickerFeedback {
-  getSound: () => void;
-  getImpact: () => void;
-  getSoundAndImpact: () => void;
+  triggerSound: () => void;
+  triggerImpact: () => void;
+  triggerSoundAndImpact: () => void;
 }
 
 export default IWheelPickerFeedback;

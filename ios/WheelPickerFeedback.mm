@@ -4,19 +4,19 @@
 @implementation WheelPickerFeedback
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(getImpact)
+RCT_EXPORT_METHOD(triggerImpact)
 {
     UIImpactFeedbackGenerator *impactFeedBack = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleLight];
     [impactFeedBack prepare];
     [impactFeedBack impactOccurred];
 }
-RCT_EXPORT_METHOD(getSound)
+RCT_EXPORT_METHOD(triggerSound)
 {
     if (@available(iOS 10.0, *)) {
         AudioServicesPlaySystemSoundWithCompletion(1157, nil);
     }
 }
-RCT_EXPORT_METHOD(getSoundAndImpact)
+RCT_EXPORT_METHOD(triggerSoundAndImpact)
 {
     if (@available(iOS 10.0, *)) {
         AudioServicesPlaySystemSoundWithCompletion(1157, nil);

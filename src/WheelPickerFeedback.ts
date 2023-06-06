@@ -1,9 +1,9 @@
 import type IWheelPickerFeedback from './IWheelPickerFeedback';
 
 class WheelPickerFeedback implements IWheelPickerFeedback {
-  public getImpact = () => {};
-  public getSound = () => {};
-  public getSoundAndImpact = () => {};
+  public triggerImpact = () => {};
+  public triggerSound = () => {};
+  public triggerSoundAndImpact = () => {};
 }
 
 export default new WheelPickerFeedback();
