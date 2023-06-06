@@ -2,6 +2,14 @@
 [Q-WHEEl-PICKER]: https://github.com/quidone/react-native-wheel-picker
 
 # 🙌 React Native Wheel Picker Feedback 🙌
+<p>
+  <a href="https://github.com/quidone/react-native-wheel-picker-feedback/blob/HEAD/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native Wheel Picker Feedback is released under the MIT license." />
+  </a>
+  <a href="https://www.npmjs.com/package/@quidone/react-native-wheel-picker-feedback">
+    <img src="https://img.shields.io/npm/v/@quidone/react-native-wheel-picker-feedback?color=brightgreen&label=npm%20package" alt="Current npm package version." />
+  </a>
+</p>
 
 It provides native sound and haptic feedback from the wheel picker. For platform other than iOS, nothing will happen.
 
