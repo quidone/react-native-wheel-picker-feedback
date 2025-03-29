@@ -1,3 +1,2 @@
-import WheelPickerFeedback from './WheelPickerFeedback';
-
+import WheelPickerFeedback from './NativeReactNativeWheelPickerFeedback';
 export default WheelPickerFeedback;

@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import {Button, StyleSheet, View} from 'react-native';
 import WheelPickerFeedback from '@quidone/react-native-wheel-picker-feedback';
 
@@ -8,14 +6,17 @@ export default function App() {
     <View style={styles.container}>
       <Button
         title={'Impact'}
+        touchSoundDisabled={true}
         onPress={() => WheelPickerFeedback.triggerImpact()}
       />
       <Button
         title={'Sound'}
+        touchSoundDisabled={true}
         onPress={() => WheelPickerFeedback.triggerSound()}
       />
       <Button
         title={'Sound and impact'}
+        touchSoundDisabled={true}
         onPress={() => WheelPickerFeedback.triggerSoundAndImpact()}
       />
     </View>

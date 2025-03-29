@@ -1,9 +1,9 @@
-import type IWheelPickerFeedback from './IWheelPickerFeedback';
+import WheelPickerFeedbackModule from './NativeReactNativeWheelPickerFeedback';
 
-class WheelPickerFeedback implements IWheelPickerFeedback {
-  public triggerImpact = () => {};
-  public triggerSound = () => {};
-  public triggerSoundAndImpact = () => {};
-}
+const WheelPickerFeedback: typeof WheelPickerFeedbackModule = {
+  triggerImpact: () => {},
+  triggerSound: () => {},
+  triggerSoundAndImpact: () => {},
+};
 
-export default new WheelPickerFeedback();
+export default WheelPickerFeedback;
