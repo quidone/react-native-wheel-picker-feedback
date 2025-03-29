@@ -37,7 +37,7 @@ WheelPickerFeedback.triggerSoundAndImpact()
 git clone git@github.com:quidone/react-native-wheel-picker-feedback.git
 cd react-native-wheel-picker-feedback
 yarn install
-cd example && bundle exec pod install && yarn ios
+cd example && bundle install && yarn ios
 ```
 
 ## 👨‍💻 Author
