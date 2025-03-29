@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import {Button, StyleSheet, View} from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
 import WheelPickerFeedback from '@quidone/react-native-wheel-picker-feedback';
 
 export default function App() {
